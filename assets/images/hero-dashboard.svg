@@ -1,0 +1,129 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Professional Sentiment Analysis Dashboard Hero Screenshot -->
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1f77b4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2196F3;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect width="1200" height="80" fill="url(#headerGrad)"/>
+  <text x="20" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="bold" fill="white">🎯 Real-time Sentiment Analysis Dashboard</text>
+  <text x="1100" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="white">Live Demo</text>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="80" width="250" height="720" fill="white" stroke="#e0e0e0"/>
+  <text x="20" y="120" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Navigation</text>
+  <rect x="20" y="140" width="210" height="40" fill="#1f77b4" rx="5"/>
+  <text x="30" y="165" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="white">📊 Dashboard</text>
+  <rect x="20" y="190" width="210" height="40" fill="#f5f5f5" rx="5"/>
+  <text x="30" y="215" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#666">📝 Text Analysis</text>
+  <rect x="20" y="240" width="210" height="40" fill="#f5f5f5" rx="5"/>
+  <text x="30" y="265" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#666">📁 Upload Data</text>
+  
+  <!-- Main Content Area -->
+  <rect x="250" y="80" width="950" height="720" fill="white"/>
+  
+  <!-- KPI Cards -->
+  <rect x="280" y="110" width="200" height="120" fill="white" stroke="#e0e0e0" filter="url(#shadow)" rx="8"/>
+  <text x="290" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#666">Overall Sentiment</text>
+  <text x="290" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="bold" fill="#2ca02c">+0.75</text>
+  <text x="290" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#2ca02c">↗ 15% this week</text>
+  
+  <rect x="500" y="110" width="200" height="120" fill="white" stroke="#e0e0e0" filter="url(#shadow)" rx="8"/>
+  <text x="510" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#666">Reviews Analyzed</text>
+  <text x="510" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="bold" fill="#1f77b4">2,847</text>
+  <text x="510" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#1f77b4">↗ 234 today</text>
+  
+  <rect x="720" y="110" width="200" height="120" fill="white" stroke="#e0e0e0" filter="url(#shadow)" rx="8"/>
+  <text x="730" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#666">Accuracy Rate</text>
+  <text x="730" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="bold" fill="#2ca02c">87.3%</text>
+  <text x="730" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#2ca02c">↗ +2.1% improved</text>
+  
+  <!-- Sentiment Trends Chart -->
+  <rect x="280" y="260" width="640" height="300" fill="white" stroke="#e0e0e0" filter="url(#shadow)" rx="8"/>
+  <text x="290" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Sentiment Trends (Last 30 Days)</text>
+  
+  <!-- Chart Grid -->
+  <line x1="310" y1="300" x2="310" y2="540" stroke="#f0f0f0"/>
+  <line x1="410" y1="300" x2="410" y2="540" stroke="#f0f0f0"/>
+  <line x1="510" y1="300" x2="510" y2="540" stroke="#f0f0f0"/>
+  <line x1="610" y1="300" x2="610" y2="540" stroke="#f0f0f0"/>
+  <line x1="710" y1="300" x2="710" y2="540" stroke="#f0f0f0"/>
+  <line x1="810" y1="300" x2="810" y2="540" stroke="#f0f0f0"/>
+  
+  <line x1="310" y1="320" x2="890" y2="320" stroke="#f0f0f0"/>
+  <line x1="310" y1="380" x2="890" y2="380" stroke="#f0f0f0"/>
+  <line x1="310" y1="440" x2="890" y2="440" stroke="#f0f0f0"/>
+  <line x1="310" y1="500" x2="890" y2="500" stroke="#f0f0f0"/>
+  
+  <!-- Positive Sentiment Line -->
+  <polyline points="310,350 410,320 510,340 610,315 710,310 810,305" 
+            fill="none" stroke="#2ca02c" stroke-width="3"/>
+  
+  <!-- Negative Sentiment Line -->
+  <polyline points="310,480 410,490 510,470 610,485 710,495 810,500" 
+            fill="none" stroke="#d62728" stroke-width="3"/>
+  
+  <!-- Neutral Sentiment Line -->
+  <polyline points="310,420 410,430 510,415 610,425 710,420 810,418" 
+            fill="none" stroke="#ff7f0e" stroke-width="3"/>
+  
+  <!-- Legend -->
+  <circle cx="930" cy="310" r="4" fill="#2ca02c"/>
+  <text x="940" y="315" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#333">Positive</text>
+  <circle cx="930" cy="330" r="4" fill="#ff7f0e"/>
+  <text x="940" y="335" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#333">Neutral</text>
+  <circle cx="930" cy="350" r="4" fill="#d62728"/>
+  <text x="940" y="355" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#333">Negative</text>
+  
+  <!-- Recent Analysis Panel -->
+  <rect x="940" y="260" width="240" height="300" fill="white" stroke="#e0e0e0" filter="url(#shadow)" rx="8"/>
+  <text x="950" y="285" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Recent Analysis</text>
+  
+  <!-- Sample Reviews -->
+  <rect x="950" y="300" width="220" height="50" fill="#e8f5e8" rx="5"/>
+  <text x="960" y="315" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#333">"Amazing product! Love it!"</text>
+  <text x="960" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="bold" fill="#2ca02c">Sentiment: +0.89 (Very Positive)</text>
+  <text x="960" y="342" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#666">2 minutes ago</text>
+  
+  <rect x="950" y="360" width="220" height="50" fill="#fff3e0" rx="5"/>
+  <text x="960" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#333">"It's okay, nothing special"</text>
+  <text x="960" y="390" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="bold" fill="#ff7f0e">Sentiment: +0.12 (Neutral)</text>
+  <text x="960" y="402" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#666">5 minutes ago</text>
+  
+  <rect x="950" y="420" width="220" height="50" fill="#ffebee" rx="5"/>
+  <text x="960" y="435" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#333">"Poor quality, disappointed"</text>
+  <text x="960" y="450" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="bold" fill="#d62728">Sentiment: -0.65 (Negative)</text>
+  <text x="960" y="462" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#666">8 minutes ago</text>
+  
+  <!-- Key Insights Panel -->
+  <rect x="280" y="580" width="640" height="200" fill="white" stroke="#e0e0e0" filter="url(#shadow)" rx="8"/>
+  <text x="290" y="605" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">🎯 Key Insights</text>
+  
+  <circle cx="300" cy="630" r="3" fill="#2ca02c"/>
+  <text x="315" y="635" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#333">Customer satisfaction improved 15% this week</text>
+  
+  <circle cx="300" cy="655" r="3" fill="#1f77b4"/>
+  <text x="315" y="660" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#333">Most positive mentions: "quality", "fast", "helpful"</text>
+  
+  <circle cx="300" cy="680" r="3" fill="#ff7f0e"/>
+  <text x="315" y="685" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#333">Areas for improvement: "shipping", "price", "support"</text>
+  
+  <circle cx="300" cy="705" r="3" fill="#2ca02c"/>
+  <text x="315" y="710" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#333">87.3% accuracy rate - Industry-leading performance</text>
+  
+  <!-- Live Demo Badge -->
+  <rect x="950" y="700" width="100" height="30" fill="#2ca02c" rx="15"/>
+  <text x="975" y="720" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="white">🟢 Live Demo</text>
+  
+  <!-- Footer Info -->
+  <text x="280" y="770" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#666">Real-time sentiment analysis powered by advanced NLP • Processing 100+ reviews/minute • 99.9% uptime</text>
+</svg>

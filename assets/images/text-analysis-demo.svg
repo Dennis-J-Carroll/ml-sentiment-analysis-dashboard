@@ -1,0 +1,89 @@
+<svg width="1000" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Text Analysis Demo Interface -->
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.1"/>
+    </filter>
+    <linearGradient id="posGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#66bb6a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect width="1000" height="60" fill="#1f77b4"/>
+  <text x="20" y="40" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="bold" fill="white">📝 Real-time Text Sentiment Analysis</text>
+  
+  <!-- Main Container -->
+  <rect x="50" y="100" width="900" height="550" fill="white" stroke="#e0e0e0" filter="url(#shadow)" rx="12"/>
+  
+  <!-- Input Section -->
+  <text x="80" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Enter Text for Analysis</text>
+  <text x="80" y="165" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#666">Type or paste any text to get instant sentiment analysis</text>
+  
+  <!-- Text Input Area -->
+  <rect x="80" y="180" width="840" height="120" fill="#fafafa" stroke="#ddd" rx="8"/>
+  <text x="100" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#333">This product is absolutely amazing! The quality is outstanding and the</text>
+  <text x="100" y="235" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#333">customer service was incredibly helpful. I'm so happy with my purchase</text>
+  <text x="100" y="260" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#333">and would definitely recommend it to others. Five stars! ⭐⭐⭐⭐⭐</text>
+  
+  <!-- Analyze Button -->
+  <rect x="400" y="320" width="200" height="50" fill="url(#posGrad)" rx="25" filter="url(#shadow)"/>
+  <text x="470" y="355" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="white">🚀 Analyze Sentiment</text>
+  
+  <!-- Results Section -->
+  <text x="80" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Analysis Results</text>
+  
+  <!-- Sentiment Score Display -->
+  <rect x="80" y="440" width="400" height="180" fill="white" stroke="#e0e0e0" filter="url(#shadow)" rx="8"/>
+  <text x="100" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Overall Sentiment Score</text>
+  
+  <!-- Large Score Display -->
+  <circle cx="280" cy="530" r="45" fill="#e8f5e8" stroke="#4caf50" stroke-width="3"/>
+  <text x="250" y="545" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="bold" fill="#4caf50">+0.87</text>
+  
+  <text x="190" y="575" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#4caf50">Very Positive</text>
+  <text x="100" y="600" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#666">Confidence: 91.2%</text>
+  
+  <!-- Detailed Breakdown -->
+  <rect x="520" y="440" width="400" height="180" fill="white" stroke="#e0e0e0" filter="url(#shadow)" rx="8"/>
+  <text x="540" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Sentiment Breakdown</text>
+  
+  <!-- Positive Bar -->
+  <rect x="540" y="490" width="12" height="12" fill="#4caf50"/>
+  <text x="560" y="502" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#333">Positive</text>
+  <rect x="620" y="492" width="240" height="8" fill="#e0e0e0" rx="4"/>
+  <rect x="620" y="492" width="208" height="8" fill="#4caf50" rx="4"/>
+  <text x="870" y="502" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#4caf50">87%</text>
+  
+  <!-- Neutral Bar -->
+  <rect x="540" y="520" width="12" height="12" fill="#ff9800"/>
+  <text x="560" y="532" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#333">Neutral</text>
+  <rect x="620" y="522" width="240" height="8" fill="#e0e0e0" rx="4"/>
+  <rect x="620" y="522" width="26" height="8" fill="#ff9800" rx="4"/>
+  <text x="870" y="532" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#ff9800">11%</text>
+  
+  <!-- Negative Bar -->
+  <rect x="540" y="550" width="12" height="12" fill="#f44336"/>
+  <text x="560" y="562" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#333">Negative</text>
+  <rect x="620" y="552" width="240" height="8" fill="#e0e0e0" rx="4"/>
+  <rect x="620" y="552" width="5" height="8" fill="#f44336" rx="4"/>
+  <text x="870" y="562" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#f44336">2%</text>
+  
+  <!-- Key Words Section -->
+  <text x="540" y="590" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Key Positive Words</text>
+  <rect x="540" y="595" width="70" height="20" fill="#e8f5e8" rx="10"/>
+  <text x="550" y="608" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#4caf50">amazing</text>
+  <rect x="620" y="595" width="80" height="20" fill="#e8f5e8" rx="10"/>
+  <text x="630" y="608" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#4caf50">outstanding</text>
+  <rect x="710" y="595" width="60" height="20" fill="#e8f5e8" rx="10"/>
+  <text x="720" y="608" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#4caf50">helpful</text>
+  <rect x="780" y="595" width="60" height="20" fill="#e8f5e8" rx="10"/>
+  <text x="790" y="608" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#4caf50">happy</text>
+  
+  <!-- Processing Time -->
+  <text x="750" y="670" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#666">⚡ Analysis completed in 0.24 seconds</text>
+</svg>
