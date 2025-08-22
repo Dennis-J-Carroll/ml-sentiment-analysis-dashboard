@@ -8,7 +8,7 @@
 [![NLP](https://img.shields.io/badge/NLP-TextBlob-green.svg)](https://textblob.readthedocs.io)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> **🟢 **LIVE DEMO**: [https://sentiment-analysis-portfolio.streamlit.app](https://sentiment-analysis-portfolio.streamlit.app) | **⚡ Available 24/7** | **🎯 Professional showcase**: [https://sentiment-analysis-portfolio.streamlit.app](https://sentiment-analysis-portfolio.streamlit.app) | **⚡ Real-time processing** | **🎯 87.3% accuracy rate**
+> **🟢 **LIVE DEMO**: [https://sentiment-analysis-portfolio.streamlit.app](https://ml-sentiment-analysis-dashboard.streamlit.app/) | **⚡ Available 24/7** | **🎯 Professional showcase**: [https://sentiment-analysis-portfolio.streamlit.app](https://sentiment-analysis-portfolio.streamlit.app) | **⚡ Real-time processing** | **🎯 87.3% accuracy rate**
 
 ---
 
